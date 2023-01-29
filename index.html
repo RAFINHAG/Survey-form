@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img class="logo-popular" src="https://impulsapopular.com/wp-content/uploads/2020/08/banco_popular-01.png" alt="Logo popular">
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">ENCUESTA DE SATIFACCION DE MPLEADOS RESERVA CENTRAL:</h1>
+        <p id="description" class="description text-center">
+          Popular a tu lado siempre!
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nombres:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Primer y Segundo nombre"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="apellido-label" for="apellido">Apellidos:</label>
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            class="form-control"
+            placeholder="Primer y Segundo apellido"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Codigo De Empleado:<span class="clue">(ej: 12345)</span></label
+          >
+          <input
+            type="number"
+            name="Codigo"
+            id="number"
+            min="1"
+            max="99999"
+            class="form-control"
+            placeholder="Solo Numeros"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <p>Indique su posicion en la reserva:</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Seleccione la correcta</option>
+            <option value="cajero">Cajero conteo efectivo TV</option>
+            <option value="Oficial ">Oficial l</option>
+            <option value="Oficial">Oficial ll</option>
+            <option value="sgerente">Sub-Gerente</option>
+            <option value="gerente">Gerente</option>
+            <option value="other">Otros</option>
+          </select>
+        </div>
+
+         <ol></ol>
+        <div class="form-group">
+          <p>1. Esta usted satisfecho con los procesos establecidos por el momento?</p>
+          <label>
+            <input
+              name="user1-recommend"
+              value="Si lo estoy"
+              type="radio"
+              class="input-radio"
+              checked
+            />Si lo estoy</label
+          >
+          <label>
+            <input
+              name="user1-recommend"
+              value="No lo estoy"
+              type="radio"
+              class="input-radio"
+            />No lo estoy</label
+          >
+
+          <label
+            ><input
+              name="user1-recommend"
+              value="No estoy seguro"
+              type="radio"
+              class="input-radio"
+            />No estoy seguro</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>2. Esta usted satisfecho con el horario de llegada y de salida ?</p>
+          <label>
+            <input
+              name="user2-recommend"
+              value="Si lo estoy"
+              type="radio"
+              class="input-radio"
+              
+              
+            />Si lo estoy</label
+          >
+          <label>
+            <input
+              name="user2-recommend"
+              value="No lo estoy"
+              type="radio"
+              class="input-radio"
+            />No lo estoy</label
+          >
+
+          <label
+            ><input
+              name="user2-recommend"
+              value="No estoy seguro"
+              type="radio"
+              class="input-radio"
+            />No estoy seguro</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>3. Esta usted satisfecho con lo logrado en el año 2022?</p>
+          <label>
+            <input
+              name="user3-recommend"
+              value="Si lo estoy"
+              type="radio"
+              class="input-radio"
+              
+            />Si lo estoy</label
+          >
+          <label>
+            <input
+              name="user3-recommend"
+              value="No lo estoy"
+              type="radio"
+              class="input-radio"
+            />No lo estoy</label
+          >
+
+          <label
+            ><input
+              name="user3-recommend"
+              value="No estoy seguro"
+              type="radio"
+              class="input-radio"
+            />No estoy seguro</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>4. Esta usted satisfecho con los cambios en los procesos de boveda remota?</p>
+          <label>
+            <input
+              name="user4-recommend"
+              value="Si lo estoy"
+              type="radio"
+              class="input-radio"
+              
+            />Si lo estoy</label
+          >
+          <label>
+            <input
+              name="user4-recommend"
+              value="No lo estoy"
+              type="radio"
+              class="input-radio"
+            />No lo estoy</label
+          >
+
+          <label
+            ><input
+              name="user4-recommend"
+              value="No estoy seguro"
+              type="radio"
+              class="input-radio"
+            />No estoy seguro</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>5. Esta usted satisfecho con los cambios en los procesos de ATM?</p>
+          <label>
+            <input
+              name="user5-recommend"
+              value="Si lo estoy"
+              type="radio"
+              class="input-radio"
+              
+            />Si lo estoy</label
+          >
+          <label>
+            <input
+              name="user5-recommend"
+              value="No lo estoy"
+              type="radio"
+              class="input-radio"
+            />No lo estoy</label
+          >
+
+          <label
+            ><input
+              name="user5-recommend"
+              value="No estoy seguro"
+              type="radio"
+              class="input-radio"
+            />No estoy seguro</label
+          >
+        </div>
+       
+        <div class="form-group">
+          <p>Cual seria el horario perfecto para usted trabajar  </p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Seleccione una respuesta</option>
+            <option value="matutino">Matutino</option>
+            <option value="Vespertino">Vespertino</option>
+            <option value="Diurno">Diurno</option>
+          
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Que cree usted que deberia mejorar la reseva?
+            <span class="clue">(Puede seleccionar mas de una)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="front-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Comunicacion</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="back-end-projects"
+              type="checkbox"
+              class="input-checkbox"
+            />Ambiente laboral</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"
+            />Puntualidad</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="challenges"
+              type="checkbox"
+              class="input-checkbox"
+            />Trabajo en equipo</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="open-source-community"
+              type="checkbox"
+              class="input-checkbox"
+            />Prefiero no responder!!</label
+          >
+          
+        <div class="form-group">
+          <p>Tiene usted algun tipo de sugerencia?<span class="clue">(Opcional)</span></p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Ingrese su comentario aqui..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Enviar
+          </button>
+        </div>
+
+      </form>
+    </div>
+    <span>Copyright &copy; 2023, Esta es una pagina solamente para uso de practica y estudio no tiene ningun valor alguno ni consecuencia su uso! </span>
+    <br>
+    <span>HECHO POR: RAFAEL GONZALEZ</span>
+  </body>
+</html>
